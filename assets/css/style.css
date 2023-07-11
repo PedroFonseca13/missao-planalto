@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Albertson';
+	src: url('../fonts/albertson/Albertson.ttf') format('truetype');
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+body {
+	font-size: 2rem;
+	font-family: 'Ysabeau Office', sans-serif;
+	background-color: #e0bc8e;
+	background-image: url('../img/wood-texture.jpg');
+	background-repeat: repeat-x repeat-y;
+	background-position: center center;
+}
+header {
+	background-color: #0c161c;
+}
+a {
+	text-decoration: none;
+}
+.country {
+	color: #f1f1f1;
+	font-family: 'Albertson';
+}
