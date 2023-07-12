@@ -1,5 +1,5 @@
 #more__section {
-	/* height: 100vh; */
+	min-height: 100vh;
 	background-color: #f7d58f;
 	padding: 2rem 0;
 }
@@ -25,4 +25,14 @@
 	align-items: center;
 	font-size: 1.6rem;
 	text-align: center;
+}
+.know-more {
+	background-color: black;
+	padding: 1rem 2rem;
+	border-radius: 1rem;
+	cursor: pointer;
+}
+.more__link {
+	font-size: 2.4rem;
+	color: #f1f1f1;
 }
