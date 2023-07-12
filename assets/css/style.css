@@ -2,7 +2,10 @@
 	font-family: 'Albertson';
 	src: url('../fonts/albertson/Albertson.ttf') format('truetype');
 }
-
+@font-face {
+	font-family: 'Eastwood';
+	src: url('../fonts/eastwood_2/Eastwood.ttf') format('truetype');
+}
 * {
 	margin: 0;
 	padding: 0;
@@ -16,15 +19,21 @@ body {
 	font-size: 2rem;
 	font-family: 'Ysabeau Office', sans-serif;
 	background-color: #e0bc8e;
-	background-image: url('../img/wood-texture.jpg');
+	background-image: url('../img/main__background.jpg');
+	background-attachment: fixed;
 	background-repeat: repeat-x repeat-y;
 	background-position: center center;
+	overflow-x: hidden;
 }
 header {
 	background-color: #0c161c;
 }
 a {
 	text-decoration: none;
+}
+h1,
+p {
+	margin: 0;
 }
 .country {
 	color: #f1f1f1;
